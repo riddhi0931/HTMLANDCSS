@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    background-image:url("./Project 3/Assets/Photos/futuristic-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 90px;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items{
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: 100px;
+    font-size: large;
+    color: white;
+    gap: 50px;
+}
+
+.signin{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 176px;
+    font-size: large;
+    color: white;
+}
+
+.button button{
+    background-color: #fb7240;
+    padding: 13px 32px;
+    font-size: medium;
+    border: none;
+    color: white;
+}
+
+.Paragraph-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    font-size: 55px;
+    padding: 115px 0px 20px 0px;
+    color: white;
+}
+
+.header p{
+    padding: 0px;
+    color: white;
+}
+
+.play-button{
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
+
+.Box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.Button-2 button{
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    color: white;
+    margin-left: -189px;
+    border: 2px solid white;
+}
+
+.Box h2{
+    position: relative;
+    left: 200px;
+    color: white;
+}
+
+.line{
+    position: relative;
+    left: 400px;
+}
+
+.right-arrow{
+    position: relative;
+    top: 65px;
+}
+
+/* HOVER EFFECT */
+
+.button:hover{
+    cursor: pointer;
+    transition: calc(1.1);
+    transform: scale(1.1);
+}
+
+
+/* HOVER EFFECT END */
+
+/* Popular Games */
+
+.game{
+    padding: 120px 90px;
+}
+.game h1{
+    text-align: center;
+}
+
+.game-card{
+    display: flex;
+    align-items: flex-end;
+    color: aliceblue;
+    width: 24%;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    
+}
+.game-content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(252, 252, 252); /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+.game-box{
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    background-image: url("./Project 3/Assets/Photos/image\ 2.png");
+    background-position: 100%;
+}
+#img2{
+    background-image: url("./Project 3/Assets/Photos/image\ 4.png");
+    background-position: 100%;
+}
+#img3{
+    background-image: url("./Project 3/Assets/Photos/image\ 4.png");
+    background-position: 100%;
+}
+#img4{
+    background-image: url("./Project 3/Assets/Photos/image\ 4.png");
+}
+
+/* Pragraph with contain */
+
+.Paragraph{
+    padding: 30px 90px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.war-img img{
+    width: 450px;
+    height: 300px;
+}
+.para{
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.btn2 button{
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    color:#ffa381;
+    /* border:#ffa381; */
+    
+}
+
+.common button{
+    background-color: #fb7240;
+    padding: 13px 32px;
+    font-size: medium;
+    border: none;
+    color: white;
+}
+
+/* Game recomanded */
+
+.Sections{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    margin-top: 100px;
+}
+
+.section-1 h1{
+    font-size: 2.5em;
+    
+}
+.section-2{
+    display: flex;
+    gap: 0 10px;
+}
+.game-left-arrow{
+    width: 40px;
+    height: 40px;
+    background-color: #ffa381;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-right-arrow{
+    width: 40px;
+    height: 40px;
+    background-color: #fb7240;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the world strongest human */
+
+.contents{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+
+.right{
+    padding:5px 0px;
+}
+
+.right h3{
+    padding-top: 30px;
+    color: #fb7240;
+    margin-right: 220px;;
+}
+
+.right p{
+    padding-top: 30px;
+    color: rgb(52, 58, 63);
+    padding-bottom: 50px;
+}
+
+.right button{
+    height: 40px;
+    width: 120px;
+    background-color: #fb7240;
+    color: white;
+    font-size: medium;
+    border: none;
+}
+
+.contents-1{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+
+.right{
+    padding:5px 0px;
+}
+
+.right h3{
+    padding-top: 30px;
+    color: #fb7240;
+    margin-right: 220px;;
+}
+
+.right p{
+    padding-top: 30px;
+    color: rgb(52, 58, 63);
+    padding-bottom: 50px;
+}
+
+.right button{
+    height: 40px;
+    width: 120px;
+    background-color: #fb7240;
+    color: white;
+    font-size: medium;
+    border: none;
+}
+
+/* Most Played Games */
+
+.main-games{
+    background-image: url("./Project 3/Assets/Icons/GAMES\ OF\ THE\ WORLD.svg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px 90px;
+    width: 100%;
+}
+.heading-games h1{
+    text-align: center;
+}
+.images-sec{
+    display: flex;
+    position: relative;
+    gap: 0px 30px;
+    margin: 60px 0;
+}
+
+.img-sec-1st img{
+    height: 300px;
+    width: 300px;
+}
+.img-sec-2nd{
+    position: relative;
+}
+.img-sec-2nd p{
+    width: 60%;
+}
+.img-sec-2nd img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+}
+.img-sec-3rd img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+     
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

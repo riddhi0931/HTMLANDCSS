@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-box{
+    height: 660px;
+    width: 90%;
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffe-box{
+    display: flex;
+    border-radius: 19px;
+    background-color: #fff;
+}
+
+.left img{
+    vertical-align: bottom;
+    border-radius: 20px 00px 0px 20px;
+}
+
+.price h1{
+    color: darkgreen;
+    font-size: large;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+    font-size: small;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.btn button{
+    display: flex;
+    background-color: darkgreen;
+    justify-content: center;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    margin-top: 30px;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+}
+
+.right{
+    padding: 15px;
+}
+
+.btn img{
+    margin-right: 20px;
+}
+    

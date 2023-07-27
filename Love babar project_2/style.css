@@ -1,0 +1,30 @@
+body{
+    background-color: #939393;
+}
+.container{
+    background-color: #fff;
+    width: 30%;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: ;
+}
+.price-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.discount button{
+    background-color: #047f39;
+    border: none;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+
+
+
+
+
+
+
